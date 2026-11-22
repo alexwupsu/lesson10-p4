@@ -1,0 +1,130 @@
+:root {
+  --bs-body-bg: #f8f7f3;
+  --bs-body-color: #292822;
+}
+
+body {
+  font-family: "Inter", system-ui, sans-serif;
+}
+
+.page-width {
+  max-width: 1080px;
+}
+
+header, footer {
+  background: #fffefa;
+}
+
+.brand {
+  color: inherit;
+  font-weight: 650;
+  text-decoration: none;
+}
+
+.intro {
+  padding: clamp(1rem, 4vw, 2.75rem) 0 clamp(2rem, 5vw, 3.5rem);
+  border-bottom: 1px solid #dedfd7;
+  text-align: center;
+}
+
+.intro h1 {
+  color: #233d33;
+  font: 500 clamp(2.4rem, 6vw, 4.2rem)/1.05 Georgia, serif;
+  letter-spacing: -.045em;
+  margin-bottom: 1rem;
+}
+
+.intro .lead {
+  max-width: 42ch;
+  margin-inline: auto;
+  font-weight: 400;
+}
+
+.section-label {
+  color: #4d5b48;
+  font-size: .8rem;
+  font-weight: 700;
+  letter-spacing: .085em;
+  text-transform: uppercase;
+}
+
+.card {
+  --bs-card-bg: #fffefa;
+  --bs-card-border-color: #dfddd5;
+  --bs-card-border-radius: .8rem;
+}
+
+.quote-card {
+  --bs-card-bg: #f4f0f8;
+}
+
+.card-body {
+  padding: 1.25rem;
+}
+
+.room-photo {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+}
+
+.tag {
+  display: inline-block;
+  margin: 0 0 .65rem;
+  padding: .2rem .5rem;
+  border-radius: .3rem;
+  background: #e9edf4;
+  color: #334b6b;
+  font-size: .77rem;
+  font-weight: 650;
+}
+
+.tag-green {
+  background: #e6efe3;
+  color: #385238;
+}
+
+.tag-violet {
+  background: #eae1f3;
+  color: #584268;
+}
+
+.tag-amber {
+  background: #f6ead4;
+  color: #6f4a18;
+}
+
+footer a {
+  color: inherit;
+  text-underline-offset: .15em;
+}
+
+.site-header {
+  border-bottom: 1px solid #dedfd7;
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: .6rem;
+}
+
+.brand-mark {
+  display: grid;
+  width: 1.75rem;
+  height: 1.75rem;
+  place-items: center;
+  border-radius: .4rem;
+  background: #284438;
+  color: #fffefa;
+  font: 700 1rem Georgia, serif;
+}
+
+.board-grid {
+  --bs-gutter-x: 1.25rem;
+}
+
+.board-item {
+  padding-bottom: 1.25rem;
+}
